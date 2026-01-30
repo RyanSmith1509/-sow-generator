@@ -60,8 +60,8 @@ st.markdown("""
 <style>
     .main-header {font-size: 2.5rem; font-weight: bold; color: #1E3A5F; margin-bottom: 0.5rem;}
     .sub-header {font-size: 1.2rem; color: #666; margin-bottom: 2rem;}
-    .step-header {background-color: #f0f7ff; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; border-left: 4px solid #1E3A5F;}
-    .summary-box {background-color: #f8f9fa; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid #dee2e6;}
+.step-header {background-color: #f0f7ff; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; border-left: 4px solid #1E3A5F; color: #1E3A5F;}
+.summary-box {background-color: #f8f9fa; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid #dee2e6;}
 </style>
 """, unsafe_allow_html=True)
 
