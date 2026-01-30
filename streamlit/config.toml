@@ -1,0 +1,43 @@
+[theme]
+primaryColor = "#1E3A5F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F7FF"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+```
+4. Click **Commit changes**
+
+---
+
+## Part B: Deploy to Streamlit Cloud
+
+### Step 1: Go to Streamlit Cloud
+
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Click **Sign in with GitHub**
+3. Authorize the connection
+
+---
+
+### Step 2: Create Your App
+
+1. Click **New app**
+2. Fill in:
+   - **Repository:** Select `your-username/sow-generator`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+3. Click **Deploy!**
+
+---
+
+### Step 3: Wait ~2 Minutes
+
+Streamlit will build your app. When it's done, you'll get a URL like:
+```
+https://your-username-sow-generator.streamlit.app
